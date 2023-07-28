@@ -1,0 +1,20 @@
+00:00:00.174306 VirtualBox GUI VM Selector Window 7.0.20 r163906 win.amd64 (Jul 10 2024 14:54:08) release log
+00:00:00.174308 Log opened 2024-08-30T11:04:35.881726000Z
+00:00:00.174308 Build Type: release
+00:00:00.174310 OS Product: Windows 11
+00:00:00.174311 OS Release: 10.0.22631
+00:00:00.174312 OS Service Pack: 
+00:00:00.198787 DMI Product Name: KLVL-WXX9
+00:00:00.204022 DMI Product Version: M1140
+00:00:00.204045 Firmware type: UEFI
+00:00:00.204642 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.204676 Host RAM: 15741MB (15.3GB) total, 4447MB (4.3GB) available
+00:00:00.204682 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.204683 Process ID: 2756
+00:00:00.204684 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.204947 Qt version: 5.15.2
+00:00:00.205853 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.227835 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.016678 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:58:12.686804 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:58:12.686847 Log rotated - Log started 2024-08-30T11:04:35.881726000Z

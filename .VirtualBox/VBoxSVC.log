@@ -1,0 +1,852 @@
+00:00:00.002929 main     VirtualBox COM Server 7.0.20 r163906 win.amd64 (Jul 10 2024 14:54:08) release log
+00:00:00.002930 main     Log opened 2024-08-30T18:45:02.776101400Z
+00:00:00.002931 main     Build Type: release
+00:00:00.002934 main     OS Product: Windows 11
+00:00:00.002935 main     OS Release: 10.0.22631
+00:00:00.002936 main     OS Service Pack: 
+00:00:00.138942 main     DMI Product Name: KLVL-WXX9
+00:00:00.152071 main     DMI Product Version: M1140
+00:00:00.152086 main     Firmware type: UEFI
+00:00:00.152358 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.152378 main     Host RAM: 15741MB (15.3GB) total, 5096MB (4.9GB) available
+00:00:00.152381 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.152382 main     Process ID: 23636
+00:00:00.152382 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.247493          VirtualBox: object creation starts
+00:00:00.247710          Home directory: 'C:\Users\MrGal\.VirtualBox'
+00:00:00.247834          Installed Drivers:
+00:00:00.254037            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 7.0.20.13906)
+00:00:00.254300            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.20.13906)
+00:00:00.254549            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.20.13906)
+00:00:00.254791            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.20.13906)
+00:00:00.255141          Loading settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.259079          usbLibGetDevices: Starting USB device enumeration
+00:00:00.259343          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&2cd76fd2&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:00.282337          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.282469          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:00.283437          usbLibGetDevices: Found 7 USB devices, 0 captured
+00:00:00.283501          USB: Unknown USB device detected (idVendor: 0x1358, idProduct: 0xc123)
+00:00:00.283526          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x56db)
+00:00:00.283539          USB: Unknown USB device detected (idVendor: 0x27c6, idProduct: 0x5110)
+00:00:00.379097          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.386430          HostDnsMonitor: initializing
+00:00:00.396197          HostDnsMonitor: updating information
+00:00:00.396227          HostDnsMonitor: old information
+00:00:00.396227            no server entries
+00:00:00.396228            no domain set
+00:00:00.396228            no search string entries
+00:00:00.396229          HostDnsMonitor: new information
+00:00:00.396229            server 1: 192.168.1.254
+00:00:00.396230            no domain set
+00:00:00.396230            no search string entries
+00:00:00.398177          VD: VDInit finished with VINF_SUCCESS
+00:00:00.399803          Loading settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:00:00.400795          VirtualBox: object created
+00:00:00.488924          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.491543          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:00:00.491991          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.494526          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:00:00.494752          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.496979          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:00:01.340415          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:35.894468 createBase Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:35.898574 createBase Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:00:35.906690          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian 2\Debian 2.vbox" with version "1.19-windows"
+00:00:35.909528          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian 2\Debian 2.vbox"
+00:00:35.909678          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:35.912130          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:00:35.915982          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:35.919371          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:00:35.920965          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian 2\Debian 2.vbox" with version "1.19-windows"
+00:00:35.923625          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian 2\Debian 2.vbox"
+00:00:35.947046          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:35.950285          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:00:35.986732          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:38.165702          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:38.177078          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:00:38.187093          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:39.883064          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:00:39.976118          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:00:40.007020          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:00:40.081757          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:54.753239          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:00:54.756258          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:00:54.808160          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:57.027269          Launched VM: 1418070976 pid: 10604 (0x296c) frontend: GUI/Qt name: Debian
+00:00:57.040582          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:01.387011          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:01.818954          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:01:02.912350          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:03.248443          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:01:03.506748          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:01:03.510940          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:01:04.351907          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:01:04.352322          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:01:04.404387          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:22:24.061027          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:22:24.063924          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:22:24.076391          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:28:31.231224          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:28:31.332606          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:28:31.367523          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:29:00.811982          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:29:00.815470          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:29:00.865504          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:29:00.886253          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:29:00.890407          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:29:00.952108          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:29:03.383980          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:29:41.491494          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:29:41.883118          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:29:41.893507          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:29:41.943043          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:29:47.239420          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:29:49.188147          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:29:49.195562          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:29:49.200259          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:29:49.272264          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:50.747639          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:56.564189          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:29:56.567865          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:29:56.591679          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:03.176114          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:03.179433          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:30:03.179522          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:03.182479          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:30:03.186009 DeleteVM Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:03.190041 DeleteVM Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:30:03.206745          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:03.210321          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:30:03.211668          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {894b47ed-07d7-48e3-9172-c59a7ac555aa}}, preserve=false aResultDetail=0
+00:30:03.214151          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {894b47ed-07d7-48e3-9172-c59a7ac555aa}}, preserve=false aResultDetail=0
+00:30:03.229696          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:39.554625 createBase Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:39.559829 createBase Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:30:39.568407          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:30:39.570904          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:30:39.571063          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:39.573792          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:30:39.577349          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:39.580393          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:30:39.581689          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:30:39.584466          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:30:39.605855          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:30:39.609435          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:30:39.643475          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:41.923190          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:30:42.033797          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:30:42.066402          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:30:42.122553          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:51.164338          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:30:51.174950          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:30:51.244729          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:53.520778          Launched VM: 1404568896 pid: 37508 (0x9284) frontend: GUI/Qt name: Debian2
+00:30:53.533888          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:57.978796          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:58.427246          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:30:59.948910          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:31:00.086335          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:31:00.434578          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:31:00.463889          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:31:00.467413          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:31:00.467633          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:31:00.537854          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:31:01.266127          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:31:01.266602          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:31:01.311119          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:31:20.963450          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:31:20.966747          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:31:20.978860          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:31:30.057748          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:31:30.069515          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:31:30.077549          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:31:30.433024          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:31:30.443749          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:31:30.452288          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:31:31.498087          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:31:31.509356          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:31:31.517164          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:35:14.258761          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:35:44.207258          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:35:44.218784          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:35:44.357061          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:35:44.360404          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:35:44.451711          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:35:45.428899          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:36:00.672741          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:00.683492          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:36:00.683564          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:00.685753          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:36:00.688788 DeleteVM Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:00.692726 DeleteVM Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:36:00.709413          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:00.712618          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:36:00.714397          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {a0ab12e0-661e-4791-b560-9e590b89a983}}, preserve=false aResultDetail=0
+00:36:00.716295          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {a0ab12e0-661e-4791-b560-9e590b89a983}}, preserve=false aResultDetail=0
+00:36:00.733540          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:36:24.281085 createBase Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:24.292781 createBase Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:36:24.300995          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:36:24.303403          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:36:24.303631          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:24.306368          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:36:24.309462          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:24.313672          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:36:24.314879          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:36:24.317783          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:36:24.338587          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:36:24.342884          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:36:24.379265          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:36:26.463647          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:36:26.567158          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:36:26.599008          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:36:26.666333          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:36:35.794431          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:36:35.797359          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:36:35.849535          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:36:38.261735          Launched VM: 1418331392 pid: 23692 (0x5c8c) frontend: GUI/Qt name: Debian2
+00:36:38.275535          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:36:42.698321          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:36:43.204412          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:36:44.449956          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:36:44.685088          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:36:45.039532          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:36:45.042026          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:36:45.046261          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:36:45.047189          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:36:45.053876          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:36:45.905256          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:36:45.905658          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:36:45.967952          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:36:50.558571          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:36:50.570210          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:36:50.577909          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:40:50.930620          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:41:00.159158          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:41:00.170636          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:41:07.822198          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:41:07.832466          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:41:07.959290          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:41:07.962783          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:41:08.039094          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:09.533461          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:17.746335          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:41:17.757225          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:41:17.757308          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:41:17.759639          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:41:17.763103 DeleteVM Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:41:17.766879 DeleteVM Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:41:17.783799          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:41:17.787771          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:41:17.788881          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {53fc174a-0667-49c4-acd0-5b9bbbe8d818}}, preserve=false aResultDetail=0
+00:41:17.790653          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {53fc174a-0667-49c4-acd0-5b9bbbe8d818}}, preserve=false aResultDetail=0
+00:41:17.805829          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:40.738042 createBase Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:41:40.749068 createBase Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:41:40.755853          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:41:40.758485          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:41:40.758675          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:41:40.761407          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:41:40.765072          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:41:40.768169          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:41:40.769616          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:41:40.772281          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:41:40.794080          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:41:40.798376          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:41:40.834842          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:44.080031          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:41:44.190240          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:41:44.222126          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:41:44.283005          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:51.265629          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:41:51.269220          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:41:51.335579          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:53.438841          Launched VM: 1418078816 pid: 21340 (0x535c) frontend: GUI/Qt name: Debian2
+00:41:53.452987          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:57.856517          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:41:58.296795          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:41:59.377180          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:41:59.686821          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:41:59.987229          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:41:59.989907          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:41:59.993999          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:41:59.995528          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:42:00.007587          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:42:00.794880          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:42:00.795261          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:42:00.841025          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:42:35.715532          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:42:35.718634          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:42:35.727476          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:42:36.073148          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:42:36.083882          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:42:36.091334          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:42:55.604308          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:42:58.498264          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:42:58.509736          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:42:58.616650          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:42:58.620575          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:42:58.729685          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:42:59.682536          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:43:01.204982          Launched VM: 1418885376 pid: 26872 (0x68f8) frontend: GUI/Qt name: Debian2
+00:43:01.222994          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:43:05.588652          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:43:06.027049          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:43:07.125781          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:43:07.527709          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:43:07.756667          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:43:07.762246          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:43:07.765252          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:43:07.765810          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:43:07.776426          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:43:08.551028          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:43:08.551548          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:43:08.601784          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:43:13.712726          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:43:13.723661          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:43:13.733936          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:43:14.104610          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:43:14.116301          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:43:14.125797          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:43:17.542516          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:43:17.553795          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:43:17.561428          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:47:13.068346          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:47:51.649789          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:47:51.702208          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:47:51.706488          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:47:51.811788          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:47:52.785470          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:48:00.678983          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:00.690430          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:48:00.690526          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:00.693080          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:48:00.696484 DeleteVM Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:00.700517 DeleteVM Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:48:00.717421          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:00.721043          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:48:00.722775          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {38ec9eba-4739-4430-8086-ed2fbd20b9cf}}, preserve=false aResultDetail=0
+00:48:00.726622          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {38ec9eba-4739-4430-8086-ed2fbd20b9cf}}, preserve=false aResultDetail=0
+00:48:00.740856          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:48:07.114283          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:07.117909          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:48:07.118183          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:07.121062          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:48:07.121335          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:07.123573          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:48:07.942234          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:48:24.837075 createBase Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:24.841270 createBase Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:48:24.853262          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:48:24.855932          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:48:24.856128          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:24.859358          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:48:24.863445          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:24.866490          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:48:24.867877          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:48:24.870617          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:48:27.892993          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:27.898812          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:48:27.931005          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:48:29.431369          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:48:29.552048          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:48:29.587106          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:48:29.636394          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:48:37.820169          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:48:37.830791          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:48:37.895483          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:48:39.468634          Launched VM: 1374213376 pid: 22276 (0x5704) frontend: GUI/Qt name: Debian2
+00:48:39.482739          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:48:43.825257          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:48:44.268337          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:48:45.406411          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:48:45.747429          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:48:46.016150          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:48:46.019561          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:48:46.028940          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:48:46.032161          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:48:46.040651          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:48:46.815626          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:48:46.816014          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:48:46.872093          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:48:59.415786          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:48:59.427302          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:48:59.436476          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:53:07.541921          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:53:27.987657          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:53:27.992996          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:53:28.149888          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:53:28.150980          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox" with version "1.19-windows"
+00:53:28.155020          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian2\Debian2.vbox"
+00:53:28.231271          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:29.722030          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:31.168754          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:31.179932          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:53:31.186799          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:33.383771          Launched VM: 1419222480 pid: 9088 (0x2380) frontend: GUI/Qt name: Debian
+00:53:33.398981          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:37.886803          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:38.337944          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:53:39.455695          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:53:39.765450          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:53:40.075821          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:53:40.082536          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:53:40.904763          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:53:40.945637          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:54:11.299310          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:54:11.302286          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:54:11.313872          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:54:21.156504          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:54:21.168276          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:54:21.168450          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:54:21.171414          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:54:21.174833 DeleteVM Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:54:21.179780 DeleteVM Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:54:21.200993          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:54:21.204437          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:54:21.218283          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {74fecccd-92c1-4d99-bfe6-d763df23d72e}}, preserve=false aResultDetail=0
+00:54:21.228100          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {74fecccd-92c1-4d99-bfe6-d763df23d72e}}, preserve=false aResultDetail=0
+00:54:21.258640          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:45.116450          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:57:46.215818          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:57:46.242549          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:57:46.246191          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:57:46.303913          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:47.789381          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:53.287711          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:53.298931          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:57:53.299032          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:53.301415          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:57:53.304805 DeleteVM Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:53.309065 DeleteVM Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:57:53.310040          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:53.314046          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:57:53.333194          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {6e37a07a-5968-4397-9e37-eb2804595ec6}}, preserve=false aResultDetail=0
+00:57:53.343965          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {6e37a07a-5968-4397-9e37-eb2804595ec6}}, preserve=false aResultDetail=0
+00:58:10.203931 createBase Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:58:10.215355 createBase Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:58:10.221978          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:58:10.224268          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:58:10.224456          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:58:10.227435          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:58:10.231131          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:58:10.234941          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:58:10.236347          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:58:10.239076          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:58:10.260239          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:58:10.264142          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+00:58:10.613938          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:58:12.739210          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:58:12.854158          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:58:12.885197          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:58:12.896017          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:58:12.932428          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:58:25.041662          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:58:25.052735          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:58:25.091206          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:58:29.432738          Launched VM: 1419150896 pid: 33260 (0x81ec) frontend: GUI/Qt name: Debian
+00:58:29.446851          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:58:33.825296          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:58:34.271004          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:58:35.375229          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:58:35.713521          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+00:58:36.064362          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:58:36.177557          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:58:36.181243          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:58:36.219604          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:58:36.918246          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:58:36.918661          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:58:37.077016          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:58:43.260486          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+00:58:43.270707          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+00:58:43.278444          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:15:19.374533          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:15:19.377777          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:15:19.387849          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:16:40.135281          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:16:40.407791          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:16:40.411036          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:16:40.468912          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:17:02.736230          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:17:02.739520          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:17:02.754025          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:17:10.701552          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:17:10.704791          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:17:10.724574          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:17:20.765609          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:17:20.769455          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:17:20.779491          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:22:07.686826          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:22:10.099958          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:22:10.111391          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:22:10.236084          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+01:22:10.241692          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:22:10.245132          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:22:10.262468          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:22:11.308058          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:22:16.800451          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:22:16.811988          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:22:16.812081          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:22:16.815156          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:22:16.818618 DeleteVM Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:22:16.822179 DeleteVM Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:22:16.822794          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:22:16.826378          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:22:16.835643          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {9f1f840e-a0d8-40ff-aaac-762f5b99f0ba}}, preserve=false aResultDetail=0
+01:22:16.849653          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {9f1f840e-a0d8-40ff-aaac-762f5b99f0ba}}, preserve=false aResultDetail=0
+01:22:36.604533 createBase Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:22:36.616314 createBase Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:22:36.625786          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:22:36.628354          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:22:36.628565          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:22:36.631646          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:22:36.635190          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:22:36.638307          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:22:36.639606          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:22:36.642413          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:22:36.663784          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:22:36.667705          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:22:37.019645          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:22:39.025040          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+01:22:39.134284          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+01:22:39.166851          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+01:22:39.178045          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:22:39.214249          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:23:07.035795          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:23:07.045950          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:23:07.082132          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:23:10.167873          Launched VM: 1419119984 pid: 36976 (0x9070) frontend: GUI/Qt name: Debian
+01:23:10.180923          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:23:14.541891          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:23:14.980509          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+01:23:16.466180          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:23:16.754379          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+01:23:17.058293          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+01:23:17.060648          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:23:17.064594          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:23:17.065990          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+01:23:17.076720          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+01:23:17.875132          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:23:17.875617          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:23:17.922656          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:23:24.853962          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:23:24.858723          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:23:24.868845          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:23:25.228055          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:23:25.233067          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:23:25.243379          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:23:29.027603          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:23:29.032339          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:23:29.039478          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:23:36.570750          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:23:36.574618          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:23:36.589845          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:40:52.459185          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:40:52.462566          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:40:52.473581          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:42:09.335406          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:42:09.345999          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:42:09.357257          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:56:21.147181          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:56:21.159206          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:56:21.188310          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:59:30.610411          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:59:31.801336          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:59:31.811910          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:59:31.852296          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+01:59:31.906734          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+01:59:36.688298          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:59:36.692203          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:59:36.700276          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:59:36.713072          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:59:36.714463 SaveState Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+01:59:36.717892 SaveState Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+01:59:36.754842          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:59:37.739425          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:59:47.212464          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:59:47.223445          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:59:47.223529          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:59:47.226071          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:59:47.229945 DeleteVM Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:59:47.234396 DeleteVM Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:59:47.235374          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:59:47.238408          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+01:59:47.248619          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {ff2ec36d-26d6-408b-bd18-91fabba97952}}, preserve=false aResultDetail=0
+01:59:47.262288          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {ff2ec36d-26d6-408b-bd18-91fabba97952}}, preserve=false aResultDetail=0
+02:01:09.147185 createBase Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:01:09.151301 createBase Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+02:01:09.157602          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+02:01:09.160465          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+02:01:09.160727          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:01:09.163232          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+02:01:09.166644          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:01:09.169202          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+02:01:09.170381          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+02:01:09.172776          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+02:01:09.192750          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:01:09.196116          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+02:01:09.549284          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:01:11.621214          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+02:01:11.739880          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+02:01:11.777640          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+02:01:11.835659          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:02:16.148298          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+02:02:16.151715          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+02:02:16.193078          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:02:17.997016          Launched VM: 1418643568 pid: 34416 (0x8670) frontend: GUI/Qt name: Debian
+02:02:18.011887          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:02:22.484385          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:02:22.917220          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+02:02:24.284333          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+02:02:24.683560          netIfIsWireless: CreateFile on '\\.\{78E51EF2-9975-4A75-8F56-227CDE0E54A1}' failed with rcWin=2 (0x2) - ignoring
+02:02:24.934962          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+02:02:24.935212          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+02:02:24.939097          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+02:02:24.942541          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+02:02:24.952323          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+02:02:25.734291          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+02:02:25.735042          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+02:02:25.784227          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:02:31.089908          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+02:02:31.100950          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+02:02:31.112386          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:02:31.481999          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+02:02:31.492333          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+02:02:31.501148          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:02:35.899704          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+02:02:35.902929          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+02:02:35.914212          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:02:47.546406          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+02:02:47.554608          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+02:02:47.566731          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:23:08.435048          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+02:23:08.438669          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+02:23:08.450602          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:54:06.635710 MainPower Host suspending: Paused 1 VMs
+02:54:06.766967          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+02:54:07.496556 USBPROXY usbLibGetDevices: Starting USB device enumeration
+02:54:07.533151 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+02:54:07.533417 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+05:54:09.751827 USBPROXY usbLibGetDevices: Starting USB device enumeration
+05:54:09.790516 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+05:54:11.201113 dns-monitor HostDnsMonitor: updating information
+05:54:11.201156 dns-monitor HostDnsMonitor: old information
+05:54:11.201161 dns-monitor   server 1: 192.168.1.254
+05:54:11.201165 dns-monitor   no domain set
+05:54:11.201168 dns-monitor   no search string entries
+05:54:11.201171 dns-monitor HostDnsMonitor: new information
+05:54:11.201174 dns-monitor   no server entries
+05:54:11.201177 dns-monitor   no domain set
+05:54:11.201181 dns-monitor   no search string entries
+05:54:13.655446 dns-monitor HostDnsMonitor: updating information
+05:54:13.655496 dns-monitor HostDnsMonitor: old information
+05:54:13.655506 dns-monitor   no server entries
+05:54:13.655511 dns-monitor   no domain set
+05:54:13.655514 dns-monitor   no search string entries
+05:54:13.655519 dns-monitor HostDnsMonitor: new information
+05:54:13.655523 dns-monitor   server 1: 192.168.1.254
+05:54:13.655528 dns-monitor   no domain set
+05:54:13.655532 dns-monitor   no search string entries
+06:14:28.433843 MainPower Host resumed: Resumed 1 VMs
+06:14:30.372721          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+06:14:30.991574 USBPROXY usbLibGetDevices: Starting USB device enumeration
+06:14:31.165716 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+06:14:31.166839 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+06:14:31.166944 USBPROXY USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x56db)
+06:14:32.419354 dns-monitor HostDnsMonitor: updating information
+06:14:32.419408 dns-monitor HostDnsMonitor: unchanged
+06:15:00.501666 USBPROXY usbLibGetDevices: Starting USB device enumeration
+06:15:00.532741 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+06:15:00.532825 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+06:15:00.532975 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+06:15:00.533008 USBPROXY USB: Unknown USB device detected (idVendor: 0x1358, idProduct: 0xc123)
+06:15:31.089160 USBPROXY usbLibGetDevices: Starting USB device enumeration
+06:15:31.118770 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+06:15:31.118971 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+06:15:31.119289 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+06:29:51.305214 MainPower Host suspending: Paused 1 VMs
+06:29:51.380671          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+07:14:28.445919 MainPower Host resumed: Resumed 1 VMs
+07:14:29.065103          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+07:14:29.935599 USBPROXY usbLibGetDevices: Starting USB device enumeration
+07:14:29.968545 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+07:14:29.968820 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+07:14:30.224460 dns-monitor HostDnsMonitor: updating information
+07:14:30.224519 dns-monitor HostDnsMonitor: old information
+07:14:30.224525 dns-monitor   server 1: 192.168.1.254
+07:14:30.224531 dns-monitor   no domain set
+07:14:30.224535 dns-monitor   no search string entries
+07:14:30.224540 dns-monitor HostDnsMonitor: new information
+07:14:30.224544 dns-monitor   no server entries
+07:14:30.224547 dns-monitor   no domain set
+07:14:30.224550 dns-monitor   no search string entries
+07:14:34.385451 dns-monitor HostDnsMonitor: updating information
+07:14:34.385490 dns-monitor HostDnsMonitor: old information
+07:14:34.385494 dns-monitor   no server entries
+07:14:34.385498 dns-monitor   no domain set
+07:14:34.385501 dns-monitor   no search string entries
+07:14:34.385504 dns-monitor HostDnsMonitor: new information
+07:14:34.385507 dns-monitor   server 1: 192.168.1.254
+07:14:34.385511 dns-monitor   no domain set
+07:14:34.385514 dns-monitor   no search string entries
+07:15:14.213720 USBPROXY usbLibGetDevices: Starting USB device enumeration
+07:15:14.243091 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+07:15:14.243237 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+07:15:14.243493 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+07:15:14.243550 USBPROXY USB: Unknown USB device detected (idVendor: 0x1358, idProduct: 0xc123)
+07:15:27.117931 USBPROXY usbLibGetDevices: Starting USB device enumeration
+07:15:27.147006 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+07:15:27.147088 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+07:15:27.147237 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+07:29:52.956896 MainPower Host suspending: Paused 1 VMs
+07:29:53.028081          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+08:14:27.471086 MainPower Host resumed: Resumed 1 VMs
+08:14:27.946411          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+08:14:29.205080 dns-monitor HostDnsMonitor: updating information
+08:14:29.205160 dns-monitor HostDnsMonitor: old information
+08:14:29.205178 dns-monitor   server 1: 192.168.1.254
+08:14:29.205188 dns-monitor   no domain set
+08:14:29.205192 dns-monitor   no search string entries
+08:14:29.205197 dns-monitor HostDnsMonitor: new information
+08:14:29.205201 dns-monitor   no server entries
+08:14:29.205205 dns-monitor   no domain set
+08:14:29.205209 dns-monitor   no search string entries
+08:14:29.665374 USBPROXY usbLibGetDevices: Starting USB device enumeration
+08:14:29.714782 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+08:14:29.715045 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+08:14:32.409040 dns-monitor HostDnsMonitor: updating information
+08:14:32.409076 dns-monitor HostDnsMonitor: old information
+08:14:32.409080 dns-monitor   no server entries
+08:14:32.409085 dns-monitor   no domain set
+08:14:32.409088 dns-monitor   no search string entries
+08:14:32.409091 dns-monitor HostDnsMonitor: new information
+08:14:32.409095 dns-monitor   server 1: 192.168.1.254
+08:14:32.409098 dns-monitor   no domain set
+08:14:32.409102 dns-monitor   no search string entries
+08:15:13.214445 USBPROXY usbLibGetDevices: Starting USB device enumeration
+08:15:13.243863 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+08:15:13.244019 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+08:15:13.244273 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+08:15:13.244329 USBPROXY USB: Unknown USB device detected (idVendor: 0x1358, idProduct: 0xc123)
+08:15:26.115105 USBPROXY usbLibGetDevices: Starting USB device enumeration
+08:15:26.144558 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+08:15:26.144758 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+08:15:26.144902 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+08:29:52.716283 MainPower Host suspending: Paused 1 VMs
+08:29:52.789563          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+09:14:27.518660 MainPower Host resumed: Resumed 1 VMs
+09:14:28.008415          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+09:14:29.231065 dns-monitor HostDnsMonitor: updating information
+09:14:29.231132 dns-monitor HostDnsMonitor: old information
+09:14:29.231140 dns-monitor   server 1: 192.168.1.254
+09:14:29.231147 dns-monitor   no domain set
+09:14:29.231152 dns-monitor   no search string entries
+09:14:29.231158 dns-monitor HostDnsMonitor: new information
+09:14:29.231163 dns-monitor   no server entries
+09:14:29.231167 dns-monitor   no domain set
+09:14:29.231172 dns-monitor   no search string entries
+09:14:29.787396 USBPROXY usbLibGetDevices: Starting USB device enumeration
+09:14:29.834907 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+09:14:29.835124 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+09:14:31.408628 dns-monitor HostDnsMonitor: updating information
+09:14:31.408655 dns-monitor HostDnsMonitor: old information
+09:14:31.408660 dns-monitor   no server entries
+09:14:31.408663 dns-monitor   no domain set
+09:14:31.408667 dns-monitor   no search string entries
+09:14:31.408670 dns-monitor HostDnsMonitor: new information
+09:14:31.408673 dns-monitor   server 1: 192.168.1.254
+09:14:31.408677 dns-monitor   no domain set
+09:14:31.408680 dns-monitor   no search string entries
+09:15:13.135252 USBPROXY usbLibGetDevices: Starting USB device enumeration
+09:15:13.165087 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+09:15:13.165188 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+09:15:13.165365 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+09:15:13.165401 USBPROXY USB: Unknown USB device detected (idVendor: 0x1358, idProduct: 0xc123)
+09:15:26.154634 USBPROXY usbLibGetDevices: Starting USB device enumeration
+09:15:26.184706 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+09:15:26.184914 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+09:15:26.185263 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+09:29:52.607696 MainPower Host suspending: Paused 1 VMs
+09:29:52.681810          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+10:08:30.570301 MainPower Host resumed: Resumed 1 VMs
+10:08:32.271458 dns-monitor HostDnsMonitor: updating information
+10:08:32.271543 dns-monitor HostDnsMonitor: old information
+10:08:32.271549 dns-monitor   server 1: 192.168.1.254
+10:08:32.271555 dns-monitor   no domain set
+10:08:32.271559 dns-monitor   no search string entries
+10:08:32.271563 dns-monitor HostDnsMonitor: new information
+10:08:32.271568 dns-monitor   no server entries
+10:08:32.271572 dns-monitor   no domain set
+10:08:32.271576 dns-monitor   no search string entries
+10:08:33.401551 USBPROXY usbLibGetDevices: Starting USB device enumeration
+10:08:33.437516          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+10:08:33.540274 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+10:08:33.540772 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+10:08:34.611183 dns-monitor HostDnsMonitor: updating information
+10:08:34.611245 dns-monitor HostDnsMonitor: old information
+10:08:34.611250 dns-monitor   no server entries
+10:08:34.611256 dns-monitor   no domain set
+10:08:34.611260 dns-monitor   no search string entries
+10:08:34.611265 dns-monitor HostDnsMonitor: new information
+10:08:34.611269 dns-monitor   server 1: 192.168.1.254
+10:08:34.611274 dns-monitor   no domain set
+10:08:34.611278 dns-monitor   no search string entries
+10:09:16.062056 USBPROXY usbLibGetDevices: Starting USB device enumeration
+10:09:16.062433 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&2cd76fd2&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+10:09:16.083137 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+10:09:16.083339 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&143e4828&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+10:09:16.083662 USBPROXY usbLibGetDevices: Found 7 USB devices, 0 captured
+10:09:16.083701 USBPROXY USB: Unknown USB device detected (idVendor: 0x1358, idProduct: 0xc123)
+10:09:16.083751 USBPROXY USB: Unknown USB device detected (idVendor: 0x27c6, idProduct: 0x5110)
+10:09:30.602984          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+10:09:34.360388          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+10:09:34.371651          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+10:09:34.457905          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+10:09:40.156673          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+10:09:40.160264          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+10:09:40.166137          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+10:09:40.175432          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+10:09:40.178288          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+10:09:40.184820 SaveState Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+10:09:40.187995 SaveState Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+10:09:40.197344          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+10:09:41.676166          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+10:54:45.217940          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+10:54:45.222171          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+10:54:45.222623          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+10:54:45.227273          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+10:54:45.227654          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+10:54:45.230897          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+10:54:46.636636          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+10:54:52.602413          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+10:54:52.607476          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+10:54:53.610479          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+10:54:53.623142          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+11:07:20.515515          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+11:07:20.526368          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+11:07:23.112285          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+11:07:23.116552          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+11:07:25.629025          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+11:07:25.639836          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+11:07:26.878919          Saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+11:07:26.882135          Finished saving settings file "C:\Users\MrGal\.VirtualBox\VirtualBox.xml"
+11:07:28.573607          Launched VM: 1373925568 pid: 29152 (0x71e0) frontend: GUI/Qt name: Debian
+11:07:28.587094          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+11:07:33.326552          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+11:07:33.795208          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+11:07:35.592131          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+11:07:36.730610          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+11:07:40.762458          Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+11:07:40.767216          Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+11:07:40.842442          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+12:19:30.178967          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+12:19:32.632816          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+12:21:33.541147 Watcher  Saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox" with version "1.19-windows"
+12:21:33.544865 Watcher  Finished saving settings file "C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vbox"
+12:21:33.598210 Watcher  Reaper: Pid 29152 (0x71e0) exited normally: 1 (0x1)
+12:27:39.619816 main     VirtualBox: object deletion starts
+12:27:39.619888 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\MrGal\VirtualBox VMs\Debian\Debian.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+12:27:39.621326 main     HostDnsMonitor: shutting down ...
+12:27:39.621553 main     HostDnsMonitor: shut down
+12:27:39.633663 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+12:27:39.634024 main     VirtualBox: object deleted

@@ -1,0 +1,186 @@
+const date = new Date();
+
+console.log(date.toString()); //date et heure actuelle dans une chaîne
+
+const Data = new Date(2023, 10, 14, 10, 12, 10, 56);
+
+console.log(Data.toString());
+// 'Tue Nov 14 2023 10:12:10 GMT+0100 (heure normale d’Europe centrale)'
+
+// autre exemple
+
+const DataBis = new Date('Tue Nov 14 2023 10:12:10 GMT+0100 (heure normale d’Europe centrale)');
+
+console.log(DataBis.toString());
+// 'Tue Nov 14 2023 10:12:10 GMT+0100 (heure normale d’Europe centrale)'
+
+const DataBis1 = new Date("2023-01-17T12:30:00");
+console.log(DataBis1.toString());
+// 'Tue Jan 17 2023 12:30:00 GMT+0100 (heure normale d’Europe centrale)'
+
+// ajouter un fuseau horaire
+
+const DataBis2 =  new Date("2023-01-17T12:30:00+04:00");
+console.log(DataBis2.toString());
+// 'Tue Jan 17 2023 09:30:00 GMT+0100 (heure normale d’Europe centrale)'
+
+// Méthodes et formatage de dates
+
+/*Il faut savoir que, pour générer une date et une heure, JavaScript se sert d’une date
+repère correspondant au 1er janvier 1970 à 00:00:00 UTC. Pour obtenir la date et l’heure
+actuelle, JavaScript récupère le nombre de millisecondes écoulées depuis cette date jusqu’à
+maintenant. Nous allons d’ailleurs pouvoir le constater en appelant certaines méthodes.
+*/
+
+// Méthodes statiques de Date
+
+/*La méthode Date.now() renvoie le nombre de millisecondes écoulées depuis
+le 1er janvier 1970 à 00:00:00 UTC.
+
+La méthode Date.parse() renvoie, quant à elle, le nombre de millisecondes écoulées depuis
+le 1er janvier 1970 à 00:00:00 UTC jusqu’à la date passée comme argument sous la forme
+d’une représentation textuelle valide.
+
+La méthode Date.UTC() renvoie le nombre de millisecondes écoulées depuis
+le 1er janvier 1970 à 00:00:00 UTC, mais permet de passer comme arguments
+les mêmes arguments que le constructeur Date()
+*/
+
+console.log(Date.now()); //nombre de millisecondes écoulées depuis la date repère
+
+console.log(Date.parse("2023-01-17T12:30:00+02:00")); //1673951400000
+
+console.log(Date.UTC(2023, 11, 1, 10, 14, 10, 58)); //1701425650058
+
+// Méthodes d’instances de conversion
+
+/*
+toDateString() qui renvoie dans une chaîne la partie « date » de la date (donc sans l’heure)
+
+toTimeString() qui renvoie dans une chaîne la partie « heure » de la date (donc sans la date)
+
+toISOString() qui renvoie une date au format ISO 8601
+
+toUTCString() qui renvoie une chaîne contenant la date selon le fuseau horaire UTC
+*/
+
+const date5 = new Date(2023, 11, 1, 10, 14, 10, 58);
+
+console.log(date5.toDateString()); //Fri Dec 01 2023
+
+console.log(date5.toTimeString()); //10:14:10 GMT+0100 (heure normale d’Europe centrale)
+
+console.log(date5.toISOString()); //2023-12-01T09:14:10.058Z
+
+console.log(date5.toUTCString()); //Fri, 01 Dec 2023 09:14:10 GMT
+
+// Méthode valueOf()
+
+/*
+a méthode valueOf() permet de renvoyer la valeur primitive enveloppée par l’objet Date
+. La valeur primitive enveloppée par une instance de Date correspond au nombre de millisecondes
+écoulées depuis le 1er janvier 1970 à 00:00:00 UTC, qui permet donc de représenter la date.
+*/
+
+const date6 = new Date(2023, 11, 1, 10, 14, 10, 58);
+
+console.log(date6.valueOf()); //1701422050058
+
+// Formater une date
+
+/*
+toLocaleDateString() : si on s’intéresse uniquement à la partie « date ».
+
+toLocaleTimeString() : si on s’intéresse uniquement à la partie « heure ».
+
+toLocalString() : si on s’intéresse aux parties « date » et « heure ».
+*/
+
+const date7 = new Date(2023, 11, 1, 10, 14, 10, 58);
+
+console.log(date7.toLocaleDateString()); //01/12/2023
+
+console.log(date7.toLocaleTimeString()); //10:14:10
+
+console.log(date7.toLocaleString()); //01/12/2023 10:14:10
+
+console.log(date7.toLocaleDateString("fr-CA")); //2023-12-01
+
+console.log(date7.toLocaleTimeString("fr-CA")); //10:14:10
+
+console.log(date7.toLocaleString("fr-CA")); //2023-12-01 10:14:10
+
+//  créer un objet, que nous allons appeler options, qui va contenir différentes propriétés
+
+/*
+weekday : pour définir si le jour de la semaine doit être affiché comme un texte complet
+ (par exemple, "lundi") ou en abrégé (par exemple, "lun").
+
+year : pour définir si l'année doit être affichée en format numérique à 2 ou 4 chiffres,
+ ou en format complet (par exemple, "2023").
+
+month : pour définir si le mois doit être affiché en texte complet (par exemple, "mars") 
+ou en abrégé (par exemple, "mar").
+
+day : pour définir si le jour doit être affiché en format numérique avec ou sans zéro
+ devant (par exemple, "01" ou "1").
+
+hour : pour définir si l'heure doit être affichée avec le format 12 ou 24 heures.
+
+minute : pour définir si les minutes doivent être affichées avec ou sans zéro devant 
+(par exemple, "08" ou "8").
+
+second : pour définir si les secondes doivent être affichées avec ou sans zéro devant
+ (par exemple, "08" ou "8").
+
+timeZoneName : pour afficher le nom de la zone horaire (par exemple, 
+  "heure d'été d'Europe centrale").
+*/
+
+const date8 = new Date(2023, 11, 1, 10, 14, 10, 58);
+
+let options = {day: 'numeric', weekday: 'short', month: 'long', year: 'numeric'};
+
+console.log(date8.toLocaleDateString("fr-FR", options));
+
+ options = {day: 'numeric'};
+console.log(date8.toLocaleDateString("fr-FR", options)); //1
+
+// exemple video
+
+const Date9 = new Date("2023-01-17T09:30:00");
+
+let option = {
+  hour: '2-digit', // 2-digit = 2 chiffre
+  minute: '2-digit'
+};
+
+let option1 = {
+  hour: 'numeric', // affiche un seul chiffre
+  minute: '2-digit',
+  second: '2-digit'
+}
+
+let option2 = {
+  weekday: 'long',
+  day: '2-digit',
+  month: '2-digit',
+  year: 'numeric',
+  hour: 'numeric', // affiche un seul chiffre
+  minute: '2-digit'
+}
+
+let formatedDateTime = Date9.toLocaleString("fr-FR");
+console.log(formatedDateTime) // 17/01/2023 09:30:00
+
+let formatedDateTime4 = Date9.toLocaleString("fr-FR", option2);
+console.log(formatedDateTime4)
+
+let formatedTime = Date9.toLocaleTimeString("fr-FR");
+console.log(formatedTime) // 09:30:00
+
+let formatedTime2 = Date9.toLocaleTimeString("fr-FR", option);
+console.log(formatedTime2) // 09:30
+
+let formatedTime3 = Date9.toLocaleTimeString("fr-FR", option1);
+console.log(formatedTime3) // 9:30: 00

@@ -1,0 +1,211 @@
+/*let tableau = ["Apple", "HP", "Acer"];
+let marques = "";
+
+
+ for (let i of tableau) {
+ console.log([i]);
+ }
+
+ for (let i of tableau) {
+  marques += i + ", ";
+  }
+
+
+  console.log(marques)*/
+
+
+  let nombreMax = 50;
+
+  let liste = "";
+
+  for(let i = 1; i <= nombreMax; i++) {
+    if(i % 4 == 0) {
+      liste += i + " est un multiple de 4 "
+      liste += "\n";
+      for (let a = 1; a <= 15; a++) {
+        liste += "-"
+      }
+      liste += "\n"
+    }
+  }
+
+  console.log(liste);
+
+
+  /*let nombres = "";
+
+nb = 120;
+
+for (let j = 0; j <= 10; j++) {
+  nombres += nb + " ";
+  nb ++;
+}
+
+console.log (nombres);
+
+let total = 0;
+
+let prix = [27, 36, 89, 18, 25];
+
+for(tab of prix) {
+  total += tab 
+}
+
+console.log (total);*/
+
+/*Écrire une boucle permettant de stocker dans une chaîne de caractères (multiples) tous les 20 premiers
+multiples de la variable nombre. Dans la chaîne, ils seront séparés par un espace.*/
+
+let nombre = 8;
+
+let multiples = " ";
+
+for(let b = 1; b <= 20; b++) {
+  multiples += (nombre * b) + " ";
+}
+
+console.log (multiples);
+
+let marques = ["Apple", "Acer", "HP", "Packard-Bell"];
+
+for (marque of marques) {
+  if(marque === "Apple" || marque === "HP" || marque === "Dell" || marque === "Microsoft") {
+    console.log("La marque est valide")
+  }
+  else {
+    console.log("la marque n'est pas valide")
+  }
+}
+
+
+
+let ordinateur = new Object();
+
+ordinateur.ram = 256;
+
+ordinateur.stockage = 512;
+
+for(Ordi in ordinateur) {
+  console.log(Ordi + " = " + ordinateur[Ordi]);
+}
+
+let nombrea = 1;
+
+while (nombrea <= 10) {
+  console.log ("Le nombre est : " + nombrea);
+  nombrea += 2;
+  nombrea -=0.5;
+}
+
+console.log (nombrea)
+
+
+let c = 1;
+
+while( c <= 10) {
+  c++;
+  if(c == 8) {
+    break;
+  }
+  console.log("le nombre est un " + c)
+}
+
+let Marq = ["BMW", "Peugeot", "Audi", "Renault"];
+
+for(Mark of Marq) {
+  console.log("La voiture est une " + Mark);
+  if(Mark == "Peugeot" || Mark == "Renault") {
+    continue;
+  }
+  console.log("C'est une marque de luxe")
+}
+
+
+/*let nombreA = 28;
+let compteur = 1;
+
+while (nombreA * compteur < 200) {
+  console.log(nombreA * compteur);
+  compteur ++;
+}
+*/
+
+let prix2 = 100;
+let tabPrix = [];
+
+do {
+  tabPrix.push(prix2);
+  prix2 ++;
+}
+
+while (prix2 > 100 && prix2 <= 110) 
+
+
+console.log(tabPrix[2]);
+
+
+
+/*let compteur = 0;
+
+let nombres = "";
+
+while (compteur < 20) {
+  nombres += compteur + " ";
+  compteur++
+}
+
+console.log (nombres);*/
+
+let nombres = 15;
+
+let compteur1 = 1
+
+while(compteur1 < nombres) {
+  if(compteur1 % 2 == 0) {
+    console.log( compteur1 + " est multiple de 2" )
+  }
+  else {
+    console.log("ce n'est pas un multiple de 2")
+  }
+  compteur1++
+}
+
+
+/*const list = [24, 67, 18];
+
+
+let resultat = "";
+
+for(nb of list) {
+ resultat = "Multiples de " + nb + ":";
+ let compteur2 = 1;
+ while(compteur2 <= nb) {
+  if(nb % compteur2 == 0) {
+    resultat += compteur2 + ", ";
+  }
+  compteur2++
+ }
+ resultat += "\n \n"
+}
+
+console.log(resultat);*/
+
+
+const list = [24, 67, 18];
+
+let compteur3 = 1;
+
+let resultats = "";
+
+for(nB of list) {
+ resultats = "Multiples de " + nB + ":";
+ for(compteur3; compteur3 <= nB; compteur3++) {
+  if(nB % compteur3 == 0) {
+    resultats += compteur3 + ", ";
+  }
+ }
+ resultats += "\n \n"
+}
+ 
+
+console.log(resultats);

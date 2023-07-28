@@ -1,0 +1,27 @@
+[user]
+	email = mr.galydanilo@gmail.com
+	name = Galy Danilo
+	mail = mr.galydanilo@gmail.com
+[color]
+	ui = true
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	logmodif = log -p
+	last5 = log --stat -5
+	ls = --pretty=format:%h : %s
+[core]
+	gitDir = D:/git_repositories
+	editor = vim
+[banch]
+	autosetuprabase = always
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[safe]
+	directory = D:/projet-site/mon-nouveau-projet
+[merge]
+	tool = vimdiff
