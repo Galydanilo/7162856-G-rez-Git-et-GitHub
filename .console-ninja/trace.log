@@ -10534,3 +10534,21 @@
 11:32:39.982 info host completed tools discovery and integration
 11:32:46.977 ERR! host uncaught exception: No clients connected
 08:09:55.424 info extension stopping host
+08:47:41.579 info extension stopping host
+08:47:42.534 info host ------------ starting ------------
+08:47:42.605 info extension host process output: port:[31410]
+08:47:42.606 info extension 
+08:47:42.606 ERR! extension host process error: [0916/084741.662:ERROR:registration_protocol_win.cc(108)] CreateFile: Le fichier spécifié est introuvable. (0x2)
+08:47:42.606 ERR! extension 
+08:47:42.634 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 31410 }
+08:47:42.872 info host starting host: {"extensionFolder":"c:\\Users\\MrGal\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.359","runtimeHookFile":"c:\\Users\\MrGal\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.359\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\MrGal\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.359\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\MrGal\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.359\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\Users\\MrGal\\OneDrive\\Bureau\\syntaxe html\\index.html","reason":"open"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","work","192.168.56.1","192.168.1.51"],"host":"127.0.0.1","forcedStart":false,"startTime":1726469261588}
+08:47:42.912 info host starting tools discovery and integration
+08:47:42.926 info host updating C:\Users\MrGal\.console-ninja\.bin\loader.js
+08:47:42.934 info host worker Starting Host Worker...
+08:47:42.938 info host looking for tools to patch
+08:47:42.975 info host found 0 tool file(s) to patch
+08:47:42.989 info host completed tools discovery and integration
+08:47:43.004 ERR! host uncaught exception: No clients connected
+08:51:24.161 info extension stopping host
+08:51:24.168 info host removing cache folder: d7100469ea52070c61da9cef0a1764f9
+08:51:24.185 info extension client disconnected: 1006 
